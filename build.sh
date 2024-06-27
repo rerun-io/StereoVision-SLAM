@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Create a build directory (if it doesn't exist)
 mkdir -p build
@@ -10,7 +10,7 @@ cd build
 cmake -DCMAKE_BUILD_TYPE=Debug ..
 
 # Build the project
-make
+make -j12
 
 # return main directory
 cd ..

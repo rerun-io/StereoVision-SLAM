@@ -10,3 +10,4 @@ app/test.cpp
 app/test2.cpp
 outputs/Dense-Reconstruction-outputs/2*
 outputs/SLAM-outputs/2*
+shell.nix
